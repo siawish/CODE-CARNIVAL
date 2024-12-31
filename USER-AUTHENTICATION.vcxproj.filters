@@ -13,66 +13,102 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Chess">
+    <Filter Include="Header Files\DbHandler">
+      <UniqueIdentifier>{7f18e3ae-e83f-4107-b32a-0d5a61942a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games">
+      <UniqueIdentifier>{18ce9cdf-0540-4984-be40-749461727ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Chess">
       <UniqueIdentifier>{8ca4567a-074a-4a26-ae9f-7dd995897c77}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Chess\.h files">
+    <Filter Include="Header Files\Games\Chess\.h files">
       <UniqueIdentifier>{3788848f-2a08-4aeb-a6dc-3a6b5bb56d8f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Chess\.cpp files">
+    <Filter Include="Header Files\Games\Chess\.cpp files">
       <UniqueIdentifier>{b2057900-ffa5-4e3d-9885-df00783129a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\MazeRunner">
+      <UniqueIdentifier>{ce9956a0-ecf5-44e4-b63d-e90364fb0907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Snake">
+      <UniqueIdentifier>{e4be23be-c86e-4a17-95c7-49573280308d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Tic Tac Toe">
+      <UniqueIdentifier>{2bdf39a2-6b2b-4289-9551-4c444de689e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\BattleShip">
+      <UniqueIdentifier>{fc2e5c3d-475c-49a7-86be-7bccbfc95af7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp">
-      <Filter>Source Files\Chess\.cpp files</Filter>
+      <Filter>Header Files\Games\Chess\.cpp files</Filter>
     </ClCompile>
     <ClCompile Include="Color.cpp">
-      <Filter>Source Files\Chess\.cpp files</Filter>
+      <Filter>Header Files\Games\Chess\.cpp files</Filter>
     </ClCompile>
     <ClCompile Include="Move.cpp">
-      <Filter>Source Files\Chess\.cpp files</Filter>
+      <Filter>Header Files\Games\Chess\.cpp files</Filter>
     </ClCompile>
     <ClCompile Include="Piece.cpp">
-      <Filter>Source Files\Chess\.cpp files</Filter>
+      <Filter>Header Files\Games\Chess\.cpp files</Filter>
     </ClCompile>
     <ClCompile Include="Pos2D.cpp">
-      <Filter>Source Files\Chess\.cpp files</Filter>
+      <Filter>Header Files\Games\Chess\.cpp files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Battleship.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Games\BattleShip</Filter>
     </ClCompile>
     <ClCompile Include="The_Maze.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Games\MazeRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseHandler.cpp">
+      <Filter>Header Files\DbHandler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h">
-      <Filter>Source Files\Chess\.h files</Filter>
+      <Filter>Header Files\Games\Chess\.h files</Filter>
     </ClInclude>
     <ClInclude Include="Color.h">
-      <Filter>Source Files\Chess\.h files</Filter>
+      <Filter>Header Files\Games\Chess\.h files</Filter>
     </ClInclude>
     <ClInclude Include="Move.h">
-      <Filter>Source Files\Chess\.h files</Filter>
+      <Filter>Header Files\Games\Chess\.h files</Filter>
     </ClInclude>
     <ClInclude Include="Piece.h">
-      <Filter>Source Files\Chess\.h files</Filter>
+      <Filter>Header Files\Games\Chess\.h files</Filter>
     </ClInclude>
     <ClInclude Include="Pos2D.h">
-      <Filter>Source Files\Chess\.h files</Filter>
-    </ClInclude>
-    <ClInclude Include="TicTacToe.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="The_Maze.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="callChess.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Games\Chess\.h files</Filter>
     </ClInclude>
     <ClInclude Include="Battleship.h">
+      <Filter>Header Files\Games\BattleShip</Filter>
+    </ClInclude>
+    <ClInclude Include="The_Maze.h">
+      <Filter>Header Files\Games\MazeRunner</Filter>
+    </ClInclude>
+    <ClInclude Include="callChess.h">
+      <Filter>Header Files\Games\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseHandler.h">
+      <Filter>Header Files\DbHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashing.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake_Game.h">
+      <Filter>Header Files\Games\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Header Files\Games\Tic Tac Toe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

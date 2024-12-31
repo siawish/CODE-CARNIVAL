@@ -24,6 +24,7 @@
     <ProjectGuid>{af59bdc1-314e-4711-b266-faf06b0dc600}</ProjectGuid>
     <RootNamespace>USERAUTHENTICATION</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CODE-CARNIVAL</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -131,6 +132,8 @@
     <ClCompile Include="Battleship.cpp" />
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Color.cpp" />
+    <ClCompile Include="DatabaseHandler.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Move.cpp" />
     <ClCompile Include="Piece.cpp" />
     <ClCompile Include="Pos2D.cpp" />
@@ -141,9 +144,13 @@
     <ClInclude Include="Board.h" />
     <ClInclude Include="callChess.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="DatabaseHandler.h" />
+    <ClInclude Include="Hashing.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="Move.h" />
     <ClInclude Include="Piece.h" />
     <ClInclude Include="Pos2D.h" />
+    <ClInclude Include="Snake_Game.h" />
     <ClInclude Include="The_Maze.h" />
     <ClInclude Include="TicTacToe.h" />
   </ItemGroup>
